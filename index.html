@@ -1,42 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<style>
-    div {
-        width: 100px;
-        height: 100px;
-        background: red;
-        transition: width 0.8s;
-    }
-
-    div:hover {
-        width: 300px;
-    }
-    body {
-        background-image: url("laptop code.jpg");
-        background-size: cover;
-        //background-color: #cccccc;
-        //background-color: lightblue;
-    }
-    h1 {
-        color: white;
-        text-align: center;
-    }
-
-    p {
-        font-family: verdana;
-        font-size: 20px;
-    }
-</style>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Zachariah Durbin</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, html {
+            margin: 0px;
+            height: 100%;
+        }
 
+        .header {
+            position: absolute;
+            padding: 10px 10px;
+            background: #555;
+            color: #f1f1f1;
+            z-index: 2;
+            transition: width 2s;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: width 2s;
+        }
+        .parallaxLaptop {
+            margin: 0px;
+            /* The image used */
+            background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(125,0,125,0.2)),url("BackgroundLaptop.jpg");
+
+            /* Set a specific height */
+            min-height: 35%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallaxProfilePicture {
+            /* The image used */
+            background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 55, 0.5)),url("ZachDurbinProfile.jpg");
+
+            /* Set a specific height */
+            min-height: 70%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            z-index: 1;
+        }
+        .caption span.border {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 6px;
+            z-index: 1;
+        }
+    </style>
+</head>
 <body>
 
+<div class="header" id="myHeader">
+    <h2>Zachariah Durbin's Page</h2>
+</div>
+
+<div class="parallaxLaptop">
+    <div class="caption">
+        <span class="border" style="background-color:rgba(0,100,100,0.5);font-size:25px;color: #f7f7f7;">Hey, my name is Zachariah Durbin</span>
+    </div>
+</div>
+
+<div style="height:2000px;background-color: #f1f1f1;font-size:36px">
+    I need to work on this jeez
+</div>
+<div class="parallaxProfilePicture">
+</div>
 
 </body>
-<h1>Hey, I'm Zachariah Durbin</h1>
-<p>Paragraph</p>
-<div></div>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
 </html>
