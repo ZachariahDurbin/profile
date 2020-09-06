@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git" />
+    <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +71,8 @@
       <updated>1599014871786</updated>
       <workItem from="1599014872870" duration="560000" />
       <workItem from="1599354528854" duration="3097000" />
-      <workItem from="1599367266913" duration="10052000" />
+      <workItem from="1599367266913" duration="10686000" />
+      <workItem from="1599386013791" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
@@ -91,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599384622853</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made Caption Mobile Friendly">
+      <created>1599385360360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599385360360</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Made Caption Mobile Friendly Part 2">
+      <created>1599385453268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599385453268</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +131,9 @@
     <MESSAGE value="testing git" />
     <MESSAGE value="Add Basic Testing items" />
     <MESSAGE value="Add Basic Pictures and Parallax Concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Basic Pictures and Parallax Concept" />
+    <MESSAGE value="Made Caption Mobile Friendly" />
+    <MESSAGE value="Made Caption Mobile Friendly Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Caption Mobile Friendly Part 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599384575080">
@@ -124,9 +144,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599356166977" />
-    <state x="553" y="326" key="Vcs.Push.Dialog.v2" timestamp="1599384626170">
+    <state x="553" y="326" key="Vcs.Push.Dialog.v2" timestamp="1599385457253">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599384626170" />
+    <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599385457253" />
   </component>
 </project>

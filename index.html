@@ -9,19 +9,23 @@
         }
 
         .header {
-            position: absolute;
+            position: fixed;
+            z-index: 1000;
+            width: 50%;
+            background: rgba(34,34,34,0.75);
             padding: 10px 10px;
-            background: #555;
-            color: #f1f1f1;
-            z-index: 2;
-            transition: width 2s;
+            -webkit-transition: all ease-out 1s;
+            -moz-transition: all ease-out .5s;
+            -o-transition: all ease-out .5s;
+            transition: all ease-out 1s;
         }
 
         .sticky {
             position: fixed;
             top: 0;
             width: 100%;
-            transition: width 2s;
+            background: rgba(34,34,34,.975);
+            transition: width 1s;
         }
         .parallaxLaptop {
             margin: 0px;
@@ -60,7 +64,7 @@
             z-index: 1;
         }
         .caption span.border {
-            background-color: #111;
+            background-color: #111111;
             color: #fff;
             padding: 18px;
             font-size: 25px;
@@ -72,7 +76,7 @@
 <body>
 
 <div class="header" id="myHeader">
-    <h2>Zachariah Durbin's Page</h2>
+    <h2 style ="color: #f7f7f7;">Zachariah Durbin's Page</h2>
 </div>
 
 <div class="parallaxLaptop">
