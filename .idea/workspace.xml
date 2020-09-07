@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git" />
+    <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +75,7 @@
       <workItem from="1599354528854" duration="3097000" />
       <workItem from="1599367266913" duration="10686000" />
       <workItem from="1599386013791" duration="1072000" />
-      <workItem from="1599426203273" duration="25502000" />
+      <workItem from="1599426203273" duration="26386000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599509622608</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix Links Again">
+      <created>1599509854379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599509854379</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +175,8 @@
     <MESSAGE value="Fix Top Sizing Issues and Add Buttons" />
     <MESSAGE value="Create Multiple Pages" />
     <MESSAGE value="Fix Links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Links" />
+    <MESSAGE value="Fix Links Again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Links Again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599427186632">
@@ -180,10 +191,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599356166977" />
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599509628145">
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599509858474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599509628145" />
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599509858474" />
     <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599386897815" />
   </component>
 </project>
