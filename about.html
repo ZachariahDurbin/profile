@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>About</title>
+</head>
+<body>
+<div class="parallaxLaptop" id="topofsite">
+    <div class="caption">
+            <span class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                Hey, I'm Zachariah Durbin
+            </span>
+    </div>
+    <div class="header" id="myHeader">
+        <button onclick="window.location='http://www.zachariahdurbin.github.io/home';">Home</button>
+        <button onclick="window.location='http://www.zachariahdurbin.github.io/projects';">Projects</button>
+        <button onclick="window.location='http://www.zachariahdurbin.github.io/about';" style="color: rgb(0,100,100);">About</button>
+        <button onclick="window.location='http://www.zachariahdurbin.github.io/contact';">Contact</button>
+        <button onclick="window.location='http://www.zachariahdurbin.github.io/resume';">Resume</button>
+        <button onclick="window.location='http://www.zachariahdurbin.github.io/findme';">Find Me On</button>
+    </div>
+
+</div>
+
+<div class="divTextbox" style="height:500vh;
+                            text-align: center">
+    <div class="caption" >
+            <span class="border"
+                  style="background-color:rgba(0,100,100,0.5);
+                  font-size:2vw;
+                  color: #f7f7f7;">
+                Hey, my name is Zachariah Durbin
+            </span>
+    </div>
+    <div>
+        <button style="color: rgb(0,100,100);">Home</button>
+        <button>Projects</button>
+    </div>
+</div>
+<div class="parallaxProfilePicture">
+</div>
+</body>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("topofsite");
+    var item = document.getElementById("myHeader");
+    var sticky = (header.offsetHeight-item.offsetHeight);
+
+    function myFunction() {
+        if (window.pageYOffset > sticky/(Math.round(((window.outerWidth) / window.innerWidth)*100) / 100)) {
+            item.classList.add("sticky");
+        } else {
+            item.classList.remove("sticky");
+        }
+    }
+</script>
+</html>
