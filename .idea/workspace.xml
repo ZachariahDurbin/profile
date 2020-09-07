@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <workItem from="1599354528854" duration="3097000" />
       <workItem from="1599367266913" duration="10686000" />
       <workItem from="1599386013791" duration="1072000" />
-      <workItem from="1599426203273" duration="6563000" />
+      <workItem from="1599426203273" duration="11508000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
