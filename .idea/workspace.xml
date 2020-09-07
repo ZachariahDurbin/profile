@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
-      <change afterPath="$PROJECT_DIR$/Durbin__Zachariah_Resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suitcase.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findme.html" beforeDir="false" afterPath="$PROJECT_DIR$/findme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +76,7 @@
       <workItem from="1599354528854" duration="3097000" />
       <workItem from="1599367266913" duration="10686000" />
       <workItem from="1599386013791" duration="1072000" />
-      <workItem from="1599426203273" duration="30775000" />
+      <workItem from="1599426203273" duration="32291000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
@@ -170,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599510825656</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Icon, Fix Titles, and Finish Resume">
+      <created>1599515417135</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599515417135</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +200,8 @@
     <MESSAGE value="Fix Links Again" />
     <MESSAGE value="Fix Links Again Home Please Work" />
     <MESSAGE value="Fix Links Again Home Please Work Pt 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Links Again Home Please Work Pt 2" />
+    <MESSAGE value="Add Icon, Fix Titles, and Finish Resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Icon, Fix Titles, and Finish Resume" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599427186632">
@@ -216,10 +216,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599356166977" />
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599510888953">
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599515421984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599510888953" />
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599515421984" />
     <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599386897815" />
   </component>
 </project>
