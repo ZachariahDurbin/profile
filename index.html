@@ -9,12 +9,47 @@
 <body>
     <div class="parallaxLaptop" id="topofsite">
         <div class="caption">
-            <span class="border"
+            <span id="homeTop" class="border"
                   style="background-color:rgba(0,100,100,0);
                   font-size:2.5vw;
                   color: #f7f7f7;
                   top: 10%">
                 Hey, I'm Zachariah Durbin
+            </span>
+            <span id="projectsTop" class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                My Favorite Projects
+            </span>
+            <span id="aboutTop" class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                About Me
+            </span>
+            <span id="contactTop" class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                Contact Me
+            </span>
+            <span id="resumeTop" class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                My Resume
+            </span>
+            <span id="findMeTop" class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                Where You can Find Me
             </span>
         </div>
         <div class="header" id="myHeader">
@@ -28,134 +63,133 @@
 
     </div>
 
-    <div id="home" class="divTextbox" style="height:500vh;
+    <div id="home" class="divTextbox" style="height:200vh;
                             text-align: left">
         <div>
-            Sup U fuckin pussies?
-
-            <p>If you click on the "Hide" button, I will disappear.</p>
-
-            <button id="hide">Hide</button>
-            <button id="show">Show</button>
         </div>
     </div>
     </div>
     <div id="projects" class="divTextbox" style="height:500vh;
                             text-align: center">
-        <div class="caption" >
-            <span class="border"
-                  style="background-color:rgba(0,100,100,0.5);
-                  font-size:2vw;
-                  color: #f7f7f7;">
-                Hey, my name is Zachariah Durbin
-            </span>
-        </div>
         <div>
-            <button style="color: rgb(0,100,100);">Home</button>
-            <button>Projects</button>
         </div>
     </div>
     <div id="about" class="parallaxProfilePicture" style="border-width: 0px"></div>
     <div id="contact" class="divTextbox" style="height:500vh;
                             text-align: center">
-        <div class="caption" >
-            <span class="border"
-                  style="background-color:rgba(0,100,100,0.5);
-                  font-size:2vw;
-                  color: #f7f7f7;">
-                Hey, my name is Zachariah Durbin
-            </span>
-        </div>
         <div>
-            <button style="color: rgb(0,100,100);">Home</button>
-            <button>Projects</button>
         </div>
     </div>
     <div id="resume" class="divTextbox" style="alignment: center;">
-        <embed src="Durbin__Zachariah_Resume.pdf"  width="800vh" height="1175vh" style="
-
-  display: block;
-
-
-  margin-left:auto;
-
-    margin-right:auto;"/>
+        <embed src="Durbin__Zachariah_Resume.pdf"  width="800vh" height="1175vh" style="display: block;
+                                                                                        margin-left:auto;
+                                                                                        margin-right:auto;"/>
     </div>
-
     <div id="findMe" class="divTextbox" style="height:500vh;
-                            text-align: center">
-        <div class="caption" >
-            <span class="border"
-                  style="background-color:rgba(0,100,100,0.5);
-                  font-size:2vw;
-                  color: #f7f7f7;">
-                Hey, my name is Zachariah Durbin
-            </span>
-        </div>
+                                               text-align: center">
         <div>
-            <button style="color: rgb(0,100,100);">Home</button>
-            <button>Projects</button>
         </div>
     </div>
-    <div class="parallaxProfilePicture">
+    <div class="parallaxLaptop" style="height: 45%;
+                                       border-top-color: rgba(0,100,100,.5);
+                                       border-bottom-color: rgba(0,60,60,.9);">
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     $(document).ready(function(){
-        $("#projects").hide();
+        $("#projectsTop").hide();
+        $("#aboutTop").hide();
+        $("#contactTop").hide();
+        $("#resumeTop").hide();
+        $("#findMeTop").hide();
         $("#about").hide();
         $("#contact").hide();
         $("#resume").hide();
         $("#findMe").hide();
         $("#homeButton").click(function(){
+            $("#projectsTop").hide();
+            $("#aboutTop").hide();
+            $("#contactTop").hide();
+            $("#resumeTop").hide();
+            $("#findMeTop").hide();
             $("#projects").hide();
             $("#about").hide();
             $("#contact").hide();
             $("#resume").hide();
             $("#findMe").hide();
             $("#home").show();
+            $("#homeTop").show();
         });
         $("#projectsButton").click(function(){
+            $("#homeTop").hide();
+            $("#aboutTop").hide();
+            $("#contactTop").hide();
+            $("#resumeTop").hide();
+            $("#findMeTop").hide();
             $("#home").hide();
             $("#about").hide();
             $("#contact").hide();
             $("#resume").hide();
             $("#findMe").hide();
             $("#projects").show();
+            $("#projectsTop").show();
         });
         $("#aboutButton").click(function(){
+            $("#homeTop").hide();
+            $("#projectsTop").hide();
+            $("#contactTop").hide();
+            $("#resumeTop").hide();
+            $("#findMeTop").hide();
             $("#home").hide();
             $("#projects").hide();
             $("#contact").hide();
             $("#resume").hide();
             $("#findMe").hide();
             $("#about").show();
+            $("#aboutTop").show();
         });
         $("#contactButton").click(function(){
+            $("#homeTop").hide();
+            $("#projectsTop").hide();
+            $("#aboutTop").hide();
+            $("#resumeTop").hide();
+            $("#findMeTop").hide();
             $("#home").hide();
             $("#projects").hide();
             $("#about").hide();
             $("#resume").hide();
             $("#findMe").hide();
             $("#contact").show();
+            $("#contactTop").show();
         });
         $("#resumeButton").click(function(){
+            $("#homeTop").hide();
+            $("#projectsTop").hide();
+            $("#aboutTop").hide();
+            $("#contactTop").hide();
+            $("#findMeTop").hide();
             $("#home").hide();
-
             $("#projects").hide();
             $("#about").hide();
             $("#contact").hide();
             $("#findMe").hide();
             $("#resume").show();
+            $("#resumeTop").show();
         });
         $("#findMeButton").click(function(){
+            $("#homeTop").hide();
+            $("#projectsTop").hide();
+            $("#aboutTop").hide();
+            $("#contactTop").hide();
+            $("#resumeTop").hide();
             $("#home").hide();
             $("#projects").hide();
             $("#about").hide();
             $("#contact").hide();
             $("#resume").hide();
             $("#findMe").show();
+            $("#findMeTop").show();
         });
     });
 </script>
