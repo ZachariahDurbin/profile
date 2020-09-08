@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Suitcase.ico">
+    <title>Home</title>
+</head>
+<body>
+    <div class="parallaxLaptop" id="topofsite">
+        <div class="caption">
+            <span class="border"
+                  style="background-color:rgba(0,100,100,0);
+                  font-size:2.5vw;
+                  color: #f7f7f7;
+                  top: 10%">
+                Hey, I'm Zachariah Durbin
+            </span>
+        </div>
+        <div class="header" id="myHeader">
+            <button id="homeButton" style="color: rgb(0,100,100);">Home</button>
+            <button id="projectsButton">Projects</button>
+            <button id="aboutButton">About</button>
+            <button id="contactButton">Contact</button>
+            <button id="resumeButton">Resume</button>
+            <button id="findMeButton">Find Me</button>
+        </div>
+
+    </div>
+
+    <div id="home" class="divTextbox" style="height:500vh;
+                            text-align: left">
+        <div>
+            Sup U fuckin pussies?
+
+            <p>If you click on the "Hide" button, I will disappear.</p>
+
+            <button id="hide">Hide</button>
+            <button id="show">Show</button>
+        </div>
+    </div>
+    </div>
+    <div id="projects" class="divTextbox" style="height:500vh;
+                            text-align: center">
+        <div class="caption" >
+            <span class="border"
+                  style="background-color:rgba(0,100,100,0.5);
+                  font-size:2vw;
+                  color: #f7f7f7;">
+                Hey, my name is Zachariah Durbin
+            </span>
+        </div>
+        <div>
+            <button style="color: rgb(0,100,100);">Home</button>
+            <button>Projects</button>
+        </div>
+    </div>
+    <div id="about" class="parallaxProfilePicture" style="border-width: 0px"></div>
+    <div id="contact" class="divTextbox" style="height:500vh;
+                            text-align: center">
+        <div class="caption" >
+            <span class="border"
+                  style="background-color:rgba(0,100,100,0.5);
+                  font-size:2vw;
+                  color: #f7f7f7;">
+                Hey, my name is Zachariah Durbin
+            </span>
+        </div>
+        <div>
+            <button style="color: rgb(0,100,100);">Home</button>
+            <button>Projects</button>
+        </div>
+    </div>
+    <div id="resume" class="divTextbox" style="alignment: center;">
+        <embed src="Durbin__Zachariah_Resume.pdf"  width="800vh" height="1175vh" style="
+
+  display: block;
+
+
+  margin-left:auto;
+
+    margin-right:auto;"/>
+    </div>
+
+    <div id="findMe" class="divTextbox" style="height:500vh;
+                            text-align: center">
+        <div class="caption" >
+            <span class="border"
+                  style="background-color:rgba(0,100,100,0.5);
+                  font-size:2vw;
+                  color: #f7f7f7;">
+                Hey, my name is Zachariah Durbin
+            </span>
+        </div>
+        <div>
+            <button style="color: rgb(0,100,100);">Home</button>
+            <button>Projects</button>
+        </div>
+    </div>
+    <div class="parallaxProfilePicture">
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#projects").hide();
+        $("#about").hide();
+        $("#contact").hide();
+        $("#resume").hide();
+        $("#findMe").hide();
+        $("#homeButton").click(function(){
+            $("#projects").hide();
+            $("#about").hide();
+            $("#contact").hide();
+            $("#resume").hide();
+            $("#findMe").hide();
+            $("#home").show();
+        });
+        $("#projectsButton").click(function(){
+            $("#home").hide();
+            $("#about").hide();
+            $("#contact").hide();
+            $("#resume").hide();
+            $("#findMe").hide();
+            $("#projects").show();
+        });
+        $("#aboutButton").click(function(){
+            $("#home").hide();
+            $("#projects").hide();
+            $("#contact").hide();
+            $("#resume").hide();
+            $("#findMe").hide();
+            $("#about").show();
+        });
+        $("#contactButton").click(function(){
+            $("#home").hide();
+            $("#projects").hide();
+            $("#about").hide();
+            $("#resume").hide();
+            $("#findMe").hide();
+            $("#contact").show();
+        });
+        $("#resumeButton").click(function(){
+            $("#home").hide();
+
+            $("#projects").hide();
+            $("#about").hide();
+            $("#contact").hide();
+            $("#findMe").hide();
+            $("#resume").show();
+        });
+        $("#findMeButton").click(function(){
+            $("#home").hide();
+            $("#projects").hide();
+            $("#about").hide();
+            $("#contact").hide();
+            $("#resume").hide();
+            $("#findMe").show();
+        });
+    });
+</script>
+</head>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("topofsite");
+    var item = document.getElementById("myHeader");
+    var sticky = (header.offsetHeight-item.offsetHeight);
+
+    function myFunction() {
+        if (window.pageYOffset > sticky/(Math.round(((window.outerWidth) / window.innerWidth)*100) / 100)) {
+            item.classList.add("sticky");
+        } else {
+            item.classList.remove("sticky");
+        }
+    }
+</script>
+</html>
