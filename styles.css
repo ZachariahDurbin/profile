@@ -18,6 +18,29 @@ body, html {
     --hover: rgba(255, 255, 255, 0.25);
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 /*** MAIN STYLES ***/
 .animated {
     -webkit-animation-duration:1s;
@@ -227,7 +250,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    margin: 40px 0 40px 0;
+    padding: 40px 0 40px 0;
 }
 
 .icons a {
@@ -671,7 +694,7 @@ textarea {
 }
 .parallaxProfilePicture {
     /* The image used */
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("ZachDurbinCasual.jpg");
+    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("ZachDurbinProfile.jpg");
 
     background-attachment: fixed;
     background-position: center;
@@ -684,6 +707,34 @@ textarea {
     border-top-width: 1vh;
     border-top-style: solid;
     border-color: rgba(0,0,100,.5);
+    /* Create the parallax scrolling effect */
+}
+.parallaxContact {
+    /* The image used */
+    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("Contact Background.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    /* Set a specific height */
+    min-height: 100%;
+    /* Create the parallax scrolling effect */
+}
+.parallaxResume {
+    /* The image used */
+    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("Resume Background.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    /* Set a specific height */
+    min-height: 100%;
     /* Create the parallax scrolling effect */
 }
 .caption {
