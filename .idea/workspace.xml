@@ -20,10 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
-      <change afterPath="$PROJECT_DIR$/Resume Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BackgroundContact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BackgroundHome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BackgroundProject.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BackgroundResume.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Background Overall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackgroundLaptop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/BackgroundFringe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GithubIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resume Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suitcase.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZachDurbinCasual.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZachDurbinProfile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/ZachDurbinProfile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZachDurbinSenior.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laptop code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,17 +65,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s529395\Documents\GitHub\profile\images" />
       <recent name="C:\Users\s529395\Documents\GitHub\profile" />
       <recent name="C:\Users\Durbin\Documents\GitHub\profile" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s529395\Documents\GitHub\profile\images" />
       <recent name="C:\Users\s529395\Documents\GitHub\profile" />
       <recent name="C:\Users\Durbin\Documents\GitHub\profile" />
     </key>
@@ -79,7 +94,9 @@
       <workItem from="1599354528854" duration="3097000" />
       <workItem from="1599367266913" duration="10686000" />
       <workItem from="1599386013791" duration="1072000" />
-      <workItem from="1599426203273" duration="60022000" />
+      <workItem from="1599426203273" duration="61955000" />
+      <workItem from="1599667729396" duration="380000" />
+      <workItem from="1599849927464" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
@@ -200,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599593250736</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="New Button Changes">
+      <created>1599631518767</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599631518768</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,14 +271,19 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599384575080" />
-    <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599356166977">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599356166977" />
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599593253797">
+    <state x="432" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599852946333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599593253797" />
+    <state x="432" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599852946333" />
+    <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599356166977" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1599668109701">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599668109701" />
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599631527328">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599631527328" />
     <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599386897815" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1599624383369">
       <screen x="0" y="0" width="1280" height="680" />
