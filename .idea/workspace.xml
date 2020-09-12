@@ -20,20 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
-      <change afterPath="$PROJECT_DIR$/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/formpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/images/sun-2297961_1920.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/readme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/FormHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/ReCaptchaValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/DmRetainerIcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PellucidPenIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ProfileSiteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/formpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/images/sun-2297961_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/readme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/FormHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/ReCaptchaValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,8 +80,8 @@
       <recent name="C:\Users\Durbin\Documents\GitHub\profile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\s529395\Documents\GitHub\profile" />
       <recent name="C:\Users\s529395\Documents\GitHub\profile\images" />
+      <recent name="C:\Users\s529395\Documents\GitHub\profile" />
       <recent name="C:\Users\Durbin\Documents\GitHub\profile" />
     </key>
   </component>
@@ -94,7 +100,7 @@
       <workItem from="1599426203273" duration="61955000" />
       <workItem from="1599667729396" duration="380000" />
       <workItem from="1599849927464" duration="4661000" />
-      <workItem from="1599869363558" duration="889000" />
+      <workItem from="1599869363558" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
@@ -229,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599855166491</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test of new contact form">
+      <created>1599870317696</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599870317696</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +279,8 @@
     <MESSAGE value="Jqeury Change Top Portion, Blank Canvas For All Pages" />
     <MESSAGE value="New Button Changes" />
     <MESSAGE value="Remove Depreciated Code and Rearrange Pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Depreciated Code and Rearrange Pictures" />
+    <MESSAGE value="test of new contact form" />
+    <option name="LAST_COMMIT_MESSAGE" value="test of new contact form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599427186632">
@@ -286,11 +300,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599855333609" />
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599855170742">
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599870320294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599855170742" />
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599870320294" />
     <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599386897815" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1599875382570">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1599875382570" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1599624383369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
