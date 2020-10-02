@@ -1,621 +1,643 @@
-body, html {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
 }
 :root {
-    --background-color: rgba(0,100,100,.5);
-    --background: #202024;
-    --main-grey: rgba(17, 17, 17, 0.9);
-    --secondary-grey: rgba(17, 17, 17, 0.9);
-    --light-grey: #3c3c44;
-    --offWhite: #e6e6e6;
-    --hover: rgba(255, 255, 255, 0.25);
+  --background-color: rgba(0, 100, 100, 0.5);
+  --background: #202024;
+  --main-grey: rgba(17, 17, 17, 0.9);
+  --secondary-grey: rgba(17, 17, 17, 0.9);
+  --light-grey: #3c3c44;
+  --offWhite: #e6e6e6;
+  --hover: rgba(255, 255, 255, 0.25);
 }
 
 .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
+  visibility: visible;
 }
 /*** MAIN STYLES ***/
 .animated {
-    -webkit-animation-duration:1s;
-    animation-duration:1s;
-    -webkit-animation-fill-mode:none!important;
-    animation-fill-mode:none!important
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: none !important;
+  animation-fill-mode: none !important;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: var(--offWhite);
-    font-family: 'Oxygen Mono', monospace, Arial, Helvetica, sans-serif;
+  color: var(--offWhite);
+  font-family: "Oxygen Mono", monospace, Arial, Helvetica, sans-serif;
 }
 
-
 .btn {
-    cursor: pointer;
-    background: var(--secondary-grey);
-    border: 2px solid var(--offWhite);
-    color: var(--offWhite);
-    padding: 0.5em;
-    font-size: 1em;
-    border-radius: 5px;
-    transition: 0.2s ease-in;
-    animation-duration: 1.6s;
-    text-align: center;
+  cursor: pointer;
+  background: var(--secondary-grey);
+  border: 2px solid var(--offWhite);
+  color: var(--offWhite);
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  animation-duration: 1.6s;
+  text-align: center;
 }
 
 .btn:hover {
-    background-color: var(--hover);
-    transform: scale(.97);
+  background-color: var(--hover);
+  transform: scale(0.97);
 }
 
 .btn:focus {
-    outline: 0;
+  outline: 0;
 }
 
-
 .sectionHeading {
-    font-size: 3em;
-    margin: 50px;
-    font-weight: normal;
-    text-align: center;
+  font-size: 3em;
+  margin: 50px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .sectionInfo {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
-
 .logo {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 1.2em;
-    transition: all 0.4s ease;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.2em;
+  transition: all 0.4s ease;
 }
 
 .logo:hover {
-    transform: scale(.97);
+  transform: scale(0.97);
 }
 
 .logo a {
-    text-decoration: none;
-    color: var(--offWhite);
-    transition: all 0.4s ease;
+  text-decoration: none;
+  color: var(--offWhite);
+  transition: all 0.4s ease;
 }
 
-
-
 .burger {
-    display: none;
+  display: none;
 }
 
 .burger div {
-    width: 25px;
-    height: 3px;
-    background-color: var(--offWhite);
-    margin: 5px;
-    transition: all 0.4s ease;
+  width: 25px;
+  height: 3px;
+  background-color: var(--offWhite);
+  margin: 5px;
+  transition: all 0.4s ease;
 }
 
-
 .toggleOpenClose .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggleOpenClose .line2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .toggleOpenClose .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
-
 .icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 40px 0 40px 0;
 }
 
 .icons a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.contactIcon  {
-    font-size: 1.7em;
-    border-radius: 50%;
-    padding: 0.5em;
-    background: var(--secondary-grey);
-    border: 2px solid var(--offWhite);
-    height: 60px;
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .45s ease-in;
-    animation-duration: 1.6s;
+.contactIcon {
+  font-size: 1.7em;
+  border-radius: 50%;
+  padding: 0.5em;
+  background: var(--secondary-grey);
+  border: 2px solid var(--offWhite);
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.45s ease-in;
+  animation-duration: 1.6s;
 }
 
 .contactIcon:hover {
-    background-color: var(--hover);
-    transform: rotate(360deg) scale(.97);
+  background-color: var(--hover);
+  transform: rotate(360deg) scale(0.97);
 }
 
 .githubLink {
-    background-size: cover;
-    background-color: rgba(0, 100, 100,.5);
+  background-size: cover;
+  background-color: rgba(0, 100, 100, 0.5);
 }
 
 .linkedInLink {
-    color: rgb(0, 127, 178);
-    background-size: cover;
-    background-color: rgba(0, 100, 100,.5);
-    animation-delay: .2s;
+  color: rgb(0, 127, 178);
+  background-size: cover;
+  background-color: rgba(0, 100, 100, 0.5);
+  animation-delay: 0.2s;
 }
 
 .twitterLink {
-    color: rgb(0, 172, 237);
-    animation-delay: .4s;
+  color: rgb(0, 172, 237);
+  animation-delay: 0.4s;
 }
 
 .emailSpan {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .emailLink {
-    font-size: 1.3em;
-    color: #fff;
-    text-decoration: underline;
-    font-style: bold;
-    animation-delay: .6s;
-    transition: all .4s ease-in;
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: underline;
+  font-style: bold;
+  animation-delay: 0.6s;
+  transition: all 0.4s ease-in;
 }
 
-
 #cardGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .cardContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 .card {
-    width: 300px;
+  width: 300px;
 }
 
 .cardTitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .cardBody {
-    padding: 6px;
-    width: 100%;
-    border: 2px solid var(--light-grey);
-    border-radius: 0 0 10px 10px;
+  padding: 6px;
+  width: 100%;
+  border: 2px solid var(--light-grey);
+  border-radius: 0 0 10px 10px;
+}
+
+.aboutBody {
+  position: relative;
+  top: 100px;
+  padding: 6px;
+  width: 100%;
+  border: 2px solid var(--light-grey);
+  border-radius: 10px;
 }
 
 .projectImageWrapper {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .projectImageWrapper img {
-    border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .screenshot {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .cardTitle {
-    text-align: center;
-    font-weight: bold;
-    margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .buttonWrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .buttonWrapper .btn {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 .description {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .skillsList {
-    margin-top: 5px;
-    list-style: none;
+  margin-top: 5px;
+  list-style: none;
 }
 
-.skillsList li{
-    border: 1px solid var(--background);
-    padding: 12px;
-    background-color: var(--light-grey);
+.skillsList li {
+  border: 1px solid var(--background);
+  padding: 12px;
+  background-color: var(--light-grey);
 }
-
-
 
 .thanksPage .btn {
-    font-size: 1.5rem;
-    margin: 1rem;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .header button {
-    background-color: rgba(0,0,0,0); /* Green background */
-    border: 0px; /* Green border */
-    color: white; /* White text */
-    font-size:3vh;
-    padding: .5vh 1vh; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+  background-color: rgba(0, 0, 0, 0); /* Green background */
+  border: 0px; /* Green border */
+  color: white; /* White text */
+  font-size: 3vh;
+  padding: 0.5vh 1vh; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
 }
 
-.div.button{
-    background-color: rgba(0,0,0,0); /* Green background */
-    border: 0px; /* Green border */
-    color: white; /* White text */
-    font-size:3vh;
-    margin: 0px;
-    padding: .5vh 1vh; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+.div.button {
+  background-color: rgba(0, 0, 0, 0); /* Green background */
+  border: 0px; /* Green border */
+  color: white; /* White text */
+  font-size: 3vh;
+  margin: 0px;
+  padding: 0.5vh 1vh; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
 }
 .fields {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -moz-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: calc(100% + 3rem);
-    margin: -1.5rem 0 2rem -1.5rem;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: calc(100% + 3rem);
+  margin: -1.5rem 0 2rem -1.5rem;
 }
 
-#feedback-page{
-    text-align:center;
+#feedback-page {
+  text-align: center;
 }
 
-#form-main{
-    width:100%;
-    float:left;
-    padding-top:0px;
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
 }
 
 #form-div {
-    background-color:rgba(72,72,72,0.4);
-    padding-left:35px;
-    padding-right:35px;
-    padding-top:35px;
-    padding-bottom:50px;
-    width: 450px;
-    float: left;
-    left: 50%;
-    position: absolute;
-    margin-top:30px;
-    margin-left: -260px;
-    border-radius: 7px;
-
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  border-radius: 7px;
 }
 
 .montform .feedback-input {
-    color:#3c3c3c;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #fbfbfb;
-    padding: 13px 13px 13px 54px;
-    margin-bottom: 10px;
-    width:100%;
-    box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
 }
 /*Inputs styles*/
-.montform .feedback-input:focus{
-    background: #fff;
-    border: 3px solid #3498db;
-    color: #3498db;
-    outline: none;
-    padding: 13px 13px 13px 54px;
+.montform .feedback-input:focus {
+  background: #fff;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
 }
-
 
 /* Icons ---------------------------------- */
-.montform  #name{
-    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+.montform #name {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
 }
 
-.montform  #name:focus{
-    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
-    background-size: 30px 30px;
-    background-position: 8px 5px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+.montform #name:focus {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
 }
 
-.montform  #email{
-    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+.montform #email {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
 }
 
-.montform  #email:focus{
-    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+.montform #email:focus {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
 }
 
-.montform  #comment{
-    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+.montform #comment {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
 }
 
-.montform  textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
+.montform textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
 }
 
-.montform  input:hover, .montform  textarea:hover,
-.montform  input:focus, .montform  textarea:focus {
-    background-color:#e6e6e6;
+.montform input:hover,
+.montform textarea:hover,
+.montform input:focus,
+.montform textarea:focus {
+  background-color: #e6e6e6;
 }
 
-.button-blue{
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    float:left;
-    width: 100%;
-    border: #fbfbfb solid 4px;
-    cursor:pointer;
-    background-color: #3498db;
-    color:white;
-    font-size:24px;
-    padding-top:22px;
-    padding-bottom:22px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
+.button-blue {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
 }
 
-.button-blue:hover{
-    background-color: rgba(0,0,0,0);
-    color: #0493bd;
+.button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0493bd;
 }
 
-.montform  .submit:hover {
-    color: #3498db;
+.montform .submit:hover {
+  color: #3498db;
 }
 
 .ease {
-    width: 0px;
-    height: 74px;
-    background-color: #fbfbfb;
-    transition: .3s ease;
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  transition: 0.3s ease;
 }
 
-.submit:hover .ease{
-    width:100%;
-    background-color:white;
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
 }
 
 /*Styles for small screens*/
 
-@media  only screen and (max-width: 580px) {
-    #form-div{
-        left: 3%;
-        margin-right: 3%;
-        width: 88%;
-        margin-left: 0;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
-
-
 
 .header {
-    position: absolute;
-    bottom: 0;
-    z-index: 1000;
-    width: 50%;
-    background: rgba(34,34,34,0.75);
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    animation: unfillTop 0.5s;
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+  width: 50%;
+  background: rgba(34, 34, 34, 0.75);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  animation: unfillTop 0.5s;
 }
 @keyframes fillTop {
-    0% {
-        width:50%;
-    }
-    100% {
-        width:100%;
-    }
+  0% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 @keyframes unfillTop {
-    0% {
-        width:100%;
-    }
-    100% {
-        width:50%;
-    }
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 50%;
+  }
 }
 .sticky {
-    position: fixed;
-    top: 0;
-    bottom: revert;
-    width: 100%;
-    background: rgba(34,34,34,.975);
+  position: fixed;
+  top: 0;
+  bottom: revert;
+  width: 100%;
+  background: rgba(34, 34, 34, 0.975);
 
-    animation: fillTop .5s;
+  animation: fillTop 0.5s;
 }
 .parallaxFringe {
-    position: relative;
-    margin: 0px;
-    /* The image used */
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0,0,0,0.5)),url("images/BackgroundFringe.jpg");
+  position: relative;
+  margin: 0px;
+  /* The image used */
+  background-image: linear-gradient(55deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url("images/BackgroundFringe.jpg");
 
-    /* Set a specific height */
-    height: 25%;
+  /* Set a specific height */
+  height: 25%;
 
-    border-bottom-width: 1vh;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(0,100,100,.5);
-    border-top-width: 1vh;
-    border-top-style: solid;
-    border-top-color: rgba(0,60,60,.9);
+  border-bottom-width: 1vh;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 100, 100, 0.5);
+  border-top-width: 1vh;
+  border-top-style: solid;
+  border-top-color: rgba(0, 60, 60, 0.9);
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .parallaxProfilePicture {
-    /* The image used */
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("images/ZachDurbinProfile.jpg");
+  /* The image used */
+  background-image: linear-gradient(
+      55deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 100, 0.5)
+    ),
+    url("images/ZachDurbinProfile.jpg");
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    box-sizing: border-box;
-    /* Set a specific height */
-    min-height: 100%;
-    border-top-width: 1vh;
-    border-top-style: solid;
-    border-color: rgba(0,0,100,.5);
-    /* Create the parallax scrolling effect */
+  box-sizing: border-box;
+  /* Set a specific height */
+  min-height: 100%;
+  border-top-width: 1vh;
+  border-top-style: solid;
+  border-color: rgba(0, 0, 100, 0.5);
+  /* Create the parallax scrolling effect */
 }
 .parallaxContact {
-    /* The image used */
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("images/BackgroundContact.jpg");
+  /* The image used */
+  background-image: linear-gradient(
+      55deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 100, 0.5)
+    ),
+    url("images/BackgroundContact.jpg");
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    box-sizing: border-box;
-    /* Set a specific height */
-    min-height: 100%;
-    /* Create the parallax scrolling effect */
+  box-sizing: border-box;
+  /* Set a specific height */
+  min-height: 100%;
+  /* Create the parallax scrolling effect */
 }
 .parallaxResume {
-    /* The image used */
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("images/BackgroundResume.jpg");
+  /* The image used */
+  background-image: linear-gradient(
+      55deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 100, 0.5)
+    ),
+    url("images/BackgroundResume.jpg");
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    box-sizing: border-box;
-    /* Set a specific height */
-    min-height: 100%;
-    /* Create the parallax scrolling effect */
+  box-sizing: border-box;
+  /* Set a specific height */
+  min-height: 100%;
+  /* Create the parallax scrolling effect */
 }
 .parallaxProject {
-    /* The image used */
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 0, 100, 0.5)),url("images/BackgroundProject.jpg");
+  /* The image used */
+  background-image: linear-gradient(
+      55deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 100, 0.5)
+    ),
+    url("images/BackgroundProject.jpg");
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    box-sizing: border-box;
-    /* Set a specific height */
-    min-height: 100%;
-    /* Create the parallax scrolling effect */
+  box-sizing: border-box;
+  /* Set a specific height */
+  min-height: 100%;
+  /* Create the parallax scrolling effect */
 }
 .caption {
-    position: absolute;
-    top:10%;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: normal;
-    text-align: center;
-    color: #000;
-    z-index: 1;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  text-align: center;
+  color: #000;
+  z-index: 1;
 }
 .caption span.border {
-    background-color: #111111;
-    color: #fff;
-    padding: 1.5vh;
-    font-size: 25px;
-    letter-spacing: .4vw;
-    z-index: 1;
+  background-color: #111111;
+  color: #fff;
+  padding: 1.5vh;
+  font-size: 25px;
+  letter-spacing: 0.4vw;
+  z-index: 1;
 }
 .divTextbox {
-    padding: 0px;
-    margin: 0px;
-    position: relative;
-    background-image: linear-gradient(55deg, rgba(0,0,0,1), rgba(0, 100, 100, 0.5)), url("images/BackgroundHome.jpg");
-    background-attachment: fixed;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  background-image: linear-gradient(
+      55deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 100, 100, 0.5)
+    ),
+    url("images/BackgroundHome.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -20,25 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb5de1c-1a7c-4a9a-818c-43e56d575e61" name="Default Changelist" comment="testing git">
-      <change afterPath="$PROJECT_DIR$/images/DmRetainerIcon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/PellucidPenIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ProfileSiteIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/AshleysArticlesIcon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/formpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/images/sun-2297961_1920.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/FormHandler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/ReCaptchaValidator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +51,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../website" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\s529395\Documents\GitHub\profile\test" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s529395\Documents\GitHub\profile\images" />
       <recent name="C:\Users\s529395\Documents\GitHub\profile" />
       <recent name="C:\Users\Durbin\Documents\GitHub\profile" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s529395\Documents\GitHub\profile\test" />
       <recent name="C:\Users\s529395\Documents\GitHub\profile\images" />
       <recent name="C:\Users\s529395\Documents\GitHub\profile" />
       <recent name="C:\Users\Durbin\Documents\GitHub\profile" />
@@ -100,7 +84,8 @@
       <workItem from="1599426203273" duration="61955000" />
       <workItem from="1599667729396" duration="380000" />
       <workItem from="1599849927464" duration="4661000" />
-      <workItem from="1599869363558" duration="5435000" />
+      <workItem from="1599869363558" duration="8662000" />
+      <workItem from="1600151472649" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1599014899240</created>
@@ -242,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599870317696</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Remove of Contact Forms, add new project pictures, rearrange project list">
+      <created>1599877065665</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599877065665</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +272,8 @@
     <MESSAGE value="New Button Changes" />
     <MESSAGE value="Remove Depreciated Code and Rearrange Pictures" />
     <MESSAGE value="test of new contact form" />
-    <option name="LAST_COMMIT_MESSAGE" value="test of new contact form" />
+    <MESSAGE value="Remove of Contact Forms, add new project pictures, rearrange project list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove of Contact Forms, add new project pictures, rearrange project list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1599427186632">
@@ -296,14 +289,14 @@
     </state>
     <state x="432" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599852946333" />
     <state x="691" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599356166977" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1599855333609">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1600194027571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599855333609" />
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599870320294">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600194027571" />
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2" timestamp="1599877068136">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599870320294" />
+    <state x="346" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599877068136" />
     <state x="553" y="326" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1599386897815" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1599875382570">
       <screen x="0" y="0" width="1280" height="680" />
